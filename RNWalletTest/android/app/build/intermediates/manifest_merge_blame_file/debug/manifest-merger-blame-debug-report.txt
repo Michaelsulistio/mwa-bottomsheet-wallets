@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rnwallettest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/mikesulistio/.gradle/caches/transforms-3/7791fe77b8ab9730d0e25ce55c6aa090/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/mikesulistio/.gradle/caches/transforms-3/7791fe77b8ab9730d0e25ce55c6aa090/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.solanamobile:mobile-wallet-adapter-walletlib:1.1.0] /Users/mikesulistio/.gradle/caches/transforms-3/0c5bc0a098cc186d658602f4f291655f/transformed/jetified-mobile-wallet-adapter-walletlib-1.1.0/AndroidManifest.xml:9:5-79
+14-->[com.solanamobile:mobile-wallet-adapter-walletlib:1.1.0] /Users/mikesulistio/.gradle/caches/transforms-3/0c5bc0a098cc186d658602f4f291655f/transformed/jetified-mobile-wallet-adapter-walletlib-1.1.0/AndroidManifest.xml:9:22-76
+15
+16    <queries>
+16-->[com.solanamobile:mobile-wallet-adapter-clientlib:2.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/fd9c6d3064c605069b5dc2abd10dedce/transformed/jetified-mobile-wallet-adapter-clientlib-2.0.0/AndroidManifest.xml:11:5-21:15
+17
+18        <!-- Support querying whether an app with the wallet endpoint role is available -->
+19        <intent>
+19-->[com.solanamobile:mobile-wallet-adapter-clientlib:2.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/fd9c6d3064c605069b5dc2abd10dedce/transformed/jetified-mobile-wallet-adapter-clientlib-2.0.0/AndroidManifest.xml:14:9-20:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-69
+20-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-66
+21
+22            <category android:name="android.intent.category.BROWSABLE" />
+22-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+22-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:27-75
+23
+24            <data android:scheme="solana-wallet" />
+24-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-56
+24-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:23-53
+25        </intent>
+26    </queries>
+27
+28    <application
+28-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:5:5-24:19
+29        android:name="com.rnwallettest.MainApplication"
+29-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:6:7-38
+30        android:allowBackup="false"
+30-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:10:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] /Users/mikesulistio/.gradle/caches/transforms-3/c05df83dbc847297b7ccad2bb18337e0/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:8:7-41
+35        android:label="@string/app_name"
+35-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:7:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:9:7-52
+37        android:theme="@style/AppTheme"
+37-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:11:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/debug/AndroidManifest.xml:8:9-44
+39        <activity
+39-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/debug/AndroidManifest.xml:11:9-111
+40            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+40-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/debug/AndroidManifest.xml:11:19-83
+41            android:exported="false" />
+41-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/debug/AndroidManifest.xml:11:84-108
+42        <activity
+42-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:12:7-23:18
+43            android:name="com.rnwallettest.MainActivity"
+43-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:13:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+44-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:15:9-118
+45            android:exported="true"
+45-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:18:9-32
+46            android:label="@string/app_name"
+46-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:14:9-41
+47            android:launchMode="singleTask"
+47-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:16:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:17:9-51
+49            <intent-filter>
+49-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:19:9-22:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:20:13-65
+50-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:20:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:21:13-73
+52-->/Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/android/app/src/main/AndroidManifest.xml:21:23-70
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-32:20
+56            android:name="com.solanamobile.mobilewalletadapterwalletlib.reactnative.MobileWalletAdapterBottomSheetActivity"
+56-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-124
+57            android:layout_gravity="bottom"
+57-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-44
+58            android:exported="true"
+58-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-36
+59            android:launchMode="singleTask"
+59-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-44
+60            android:theme="@style/Theme.ExampleWallet.BottomSheet" >
+60-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-67
+61
+62            <!-- Default solana-wallet URI from a browser or native dapp -->
+63            <intent-filter android:order="1" >
+63-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-25:29
+63-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:28-45
+64                <action android:name="android.intent.action.VIEW" />
+64-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-69
+64-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-76
+66-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:27-73
+67                <category android:name="android.intent.category.BROWSABLE" />
+67-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+67-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:27-75
+68
+69                <data android:scheme="solana-wallet" />
+69-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-56
+69-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:23-53
+70            </intent-filter>
+71            <!-- Any other uncategorized solana-wallet URI not covered by above -->
+72            <intent-filter android:order="0" >
+72-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-31:29
+72-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:28-45
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-76
+73-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:27-73
+74
+75                <data android:scheme="solana-wallet" />
+75-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-56
+75-->[:solana-mobile_mobile-wallet-adapter-walletlib] /Users/mikesulistio/Documents/testing/expo-wallet/RNWalletTest/node_modules/@solana-mobile/mobile-wallet-adapter-walletlib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:23-53
+76            </intent-filter>
+77        </activity>
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+81            android:authorities="com.rnwallettest.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/mikesulistio/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mikesulistio/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mikesulistio/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mikesulistio/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>
